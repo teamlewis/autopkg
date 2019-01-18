@@ -40,11 +40,11 @@
 				<key>fw_destination_root</key>
 				<string>/Applications/Grammarly.app</string>
 				<key>fw_fileset_group</key>
-				<string>Testing</string>
+				<string>Autopkgr_feeds</string>
 				<key>fw_fileset_name</key>
 				<string>%NAME% - %version%</string>
 				<key>fw_import_source</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%/downloads/Grammarly.dmg</string>
+				<string>%RECIPE_CACHE_DIR%/%NAME%/Grammarly.app</string>
 			</dict>
 			<key>Processor</key>
 			<string>com.github.autopkg.filewave.FWTool/FileWaveImporter</string>
