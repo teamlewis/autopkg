@@ -2,10 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Comment</key>
+	<string>Created by Inaky Martinez (https://github.com/inakymartinez/)</string>
 	<key>Description</key>
-	<string>Downloads the latest verison of Zoom Outlook Plugin</string>
-	<key>Identifier</key>
-	<string>com.github.joshua-d-miller.download.zoomoutlookplugin</string>
+	<string>Downloads the latest version of Zoom Outlook Plugin</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
