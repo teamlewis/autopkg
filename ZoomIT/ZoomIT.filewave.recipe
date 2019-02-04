@@ -15,7 +15,7 @@
 		<key>NAME</key>
 		<string>Zoom</string>
         <key>fw_app_bundle_id</key>
-        <string>com.github.peshay.filewave.Zoom</string>
+        <string>com.github.teamlewis.filewave.ZoomIT</string>
 	</dict>
 	<key>Process</key>
 	<array>
@@ -27,10 +27,10 @@
                 <key>url</key>
                 <string>https://zoom.us/client/latest/ZoomInstallerIT.pkg</string>
 		<key>re_pattern</key>
-                <string>href="/client/([^"]*)/Zoom.pkg" class="btn"</string>
+                <string>href="/client/([^"]*)/ZoomInstallerIT.pkg" class="btn"</string>
                 <key>re_flags</key>
                 <array>
-                    <string>IGNORECASE</string>
+                <string>IGNORECASE</string>
                 </array>
                 <key>result_output_var_name</key>
                 <string>version</string>
@@ -39,12 +39,12 @@
 		<dict>
 			<key>Arguments</key>
 			<dict>
-        <key>fw_app_bundle_id</key>
+                                <key>fw_app_bundle_id</key>
 				<string>%fw_app_bundle_id%</string>
 				<key>fw_app_version</key>
 				<string>%version%</string>
 				<key>fw_fileset_name</key>
-        <string>%NAME% - %version%</string>
+                                <string>%NAME% - %version%</string>
 				<key>fw_import_source</key>
 				<string>%pathname%</string>
 			</dict>
