@@ -9,23 +9,28 @@
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
 	<key>ParentRecipe</key>
-	<string>ZoomIT.download.recipe</string>
-        <key>Input</key>
+	<string>com.github.hansen-m.download.zoomus</string>
+    <key>Input</key>
 	<dict>
-	<key>NAME</key>
-	<string>Zoom</string>
+		<key>NAME</key>
+		<string>Zoom</string>
         <key>fw_app_bundle_id</key>
         <string>com.github.teamlewis.filewave.ZoomIT</string>
 	</dict>
 	<key>Process</key>
 	<array>
-	   <dict>
-	   <dict>
-		<key>DOWNLOAD_URL</key>
-		<string>https://zoom.us/client/latest/ZoomInstallerIT.pkg</string>
+		<dict>
+            <key>Processor</key>
+            <string>URLTextSearcher</string>
+            <key>Arguments</key>
+            <dict>
+                <key>url</key>
+                <string>https://zoom.us/client/latest/Zoom.pkg</string>
+                <key>re_pattern</key>
+                <string>href="/client/([^"]*)/Zoom.pkg" class="btn"</string>
                 <key>re_flags</key>
                 <array>
-                <string>IGNORECASE</string>
+                    <string>IGNORECASE</string>
                 </array>
                 <key>result_output_var_name</key>
                 <string>version</string>
@@ -34,12 +39,12 @@
 		<dict>
 			<key>Arguments</key>
 			<dict>
-                                <key>fw_app_bundle_id</key>
+                <key>fw_app_bundle_id</key>
 				<string>%fw_app_bundle_id%</string>
 				<key>fw_app_version</key>
 				<string>%version%</string>
 				<key>fw_fileset_name</key>
-                                <string>%NAME% - %version%</string>
+                <string>%NAME% - %version%</string>
 				<key>fw_import_source</key>
 				<string>%pathname%</string>
 			</dict>
