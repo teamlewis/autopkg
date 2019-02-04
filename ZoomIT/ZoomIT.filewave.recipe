@@ -9,7 +9,7 @@
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.hansen-m.download.zoomus</string>
+	<string>com.com.github.teamlewis.download.ZoomIT</string>
     <key>Input</key>
 	<dict>
 		<key>NAME</key>
@@ -25,7 +25,7 @@
             <key>Arguments</key>
             <dict>
                 <key>url</key>
-                <string>https://zoom.us/client/latest/</string>
+                <string>https://zoom.us/client/latest/ZoomInstallerIT.pkg</string>
                 <key>re_pattern</key>
                 <string>href="/client/([^"]*)/ZoomInstallerIT.pkg" class="btn"</string>
                 <key>re_flags</key>
@@ -44,7 +44,7 @@
 				<key>fw_app_version</key>
 				<string>%version%</string>
 				<key>fw_fileset_name</key>
-                <string>%NAME% - %version%</string>
+                		<string>%NAME% - %version%</string>
 				<key>fw_import_source</key>
 				<string>%pathname%</string>
 			</dict>
