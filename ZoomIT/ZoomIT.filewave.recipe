@@ -19,11 +19,8 @@
 	</dict>
 	<key>Process</key>
 	<array>
-		<dict>
-            <key>Processor</key>
-            <string>URLTextSearcher</string>
-            <key>Arguments</key>
-            <dict>
+	   <dict>
+	   <dict>
 		<key>DOWNLOAD_URL</key>
 		<string>https://zoom.us/client/latest/ZoomInstallerIT.pkg</string>
                 <key>re_flags</key>
