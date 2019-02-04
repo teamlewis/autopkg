@@ -25,9 +25,9 @@
             <key>Arguments</key>
             <dict>
                 <key>url</key>
-                <string>https://zoom.us/client/latest/Zoom.pkg</string>
+                <string>https://zoom.us/client/latest/ZoomInstallerIT.pkg</string>
                 <key>re_pattern</key>
-                <string>href="/client/([^"]*)/Zoom.pkg" class="btn"</string>
+                <string>href="/client/([^"]*)/ZoomInstallerIT.pkg" class="btn"</string>
                 <key>re_flags</key>
                 <array>
                     <string>IGNORECASE</string>
