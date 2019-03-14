@@ -9,11 +9,11 @@
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
 	<key>ParentRecipe</key>
-	<string>com.com.github.teamlewis.download.ZoomIT</string>
+	<string>com.github.teamlewis.download.ZoomIT</string>
     <key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Zoom</string>
+		<string>ZoomInstallerIT</string>
         <key>fw_app_bundle_id</key>
         <string>com.github.teamlewis.filewave.ZoomIT</string>
 	</dict>
