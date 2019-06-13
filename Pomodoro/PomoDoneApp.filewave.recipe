@@ -44,7 +44,7 @@
 				<key>fw_fileset_name</key>
 				<string>%NAME% - %version%</string>
 				<key>fw_import_source</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%/PomoDoneApp.app</string>
+				<string>%RECIPE_CACHE_DIR%/%NAME%/PomoDoneApp.dmg</string>
 			</dict>
 			<key>Processor</key>
 			<string>com.github.autopkg.filewave.FWTool/FileWaveImporter</string>
