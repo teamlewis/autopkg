@@ -22,14 +22,12 @@
 			<dict>
 				<key>fw_app_bundle_id</key>
 				<string>notion.id</string>
-				<key>fw_app_version</key>
-				<string>%version%</string>
 				<key>fw_destination_root</key>
 				<string>/Applications/Notion.app</string>
 				<key>fw_fileset_group</key>
 				<string>Autopkgr_feeds</string>
 				<key>fw_fileset_name</key>
-				<string>%NAME% - %version%</string>
+				<string>%NAME%</string>
 				<key>fw_import_source</key>
 				<string>%RECIPE_CACHE_DIR%/downloads/%NAME%.dmg/Notion.app</string>
 			</dict>
