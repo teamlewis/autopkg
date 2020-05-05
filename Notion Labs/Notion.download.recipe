@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the LATEST version of Notion.</string>
     <key>Identifier</key>
-    <string>com.github.teamlewis.filewave.Notion</string>
+    <string>com.github.teamlewis.download.Notion</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
