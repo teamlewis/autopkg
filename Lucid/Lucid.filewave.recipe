@@ -29,7 +29,7 @@
 				<key>fw_destination_root</key>
 				<string>/Applications/Lucid.app</string>
 				<key>fw_fileset_group</key>
-				<string>Testing</string>
+				<string>00 Autopkgr_feeds</string>
 				<key>fw_fileset_name</key>
 				<string>%NAME% - %version%</string>
 				<key>fw_import_source</key>
